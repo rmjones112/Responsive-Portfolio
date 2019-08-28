@@ -218,9 +218,41 @@ body {
   }
   /* position needs to be changed to static*/
   /* ADD media queries for 980,768 and 640 screen widths place at bottom of CSS */
-@media screen and (max-width: 980px) {}
-
-@media screen and (max-width: 768px) {}
-    
- @media screen and (max-width: 640px) {}
+  @media (max-width: 980px) {
+    #container {
+      width: 100%;
+    }
+    .main-section {
+      width: 70%;
+    }
+    .portfolio {
+      width: 100%;
+    }
+  }
+  @media (max-width: 768px) {
+      #container {
+      width: 100%;
+    }
+    .main-section {
+      width: 100%;
+    }
+    .portfolio {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    #masthead {
+      position: static;
+    }
+    #container {
+     width: 100%;
+    }
+    .main-section {
+      width: 100%;
+    }
+    .portfolio {
+      width: 100%;
+    }
+  }
     
