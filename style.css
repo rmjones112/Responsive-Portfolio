@@ -16,6 +16,7 @@ body {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
+    height: 100%
     clear: both;
   }
   
@@ -215,4 +216,11 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
-  
+  /* position needs to be changed to static*/
+  /* ADD media queries for 980,768 and 640 screen widths place at bottom of CSS */
+@media screen and (max-width: 980px) {}
+
+@media screen and (max-width: 768px) {}
+    
+ @media screen and (max-width: 640px) {}
+    
