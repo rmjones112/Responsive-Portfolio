@@ -36,7 +36,7 @@ body {
   h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
-    color: #4aaaa5;
+    color: lightpink;
   }
   
   h1 {
@@ -75,7 +75,7 @@ body {
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    background: #4aaaa5;
+    background:lightpink;
   }
   
   nav {
@@ -165,7 +165,7 @@ body {
     line-height: 30px;
     color: #ffffff;
     text-align: center;
-    background: #4aaaa5;
+    background: lightpink;
     border-bottom: 0;
   }
   
@@ -213,7 +213,7 @@ body {
     font-size: 18px;
     color: #ffffff;
     cursor: pointer;
-    background: #4aaaa5;
+    background:lightpink;
     border: 0 none;
   }
   /* position needs to be changed to static*/
